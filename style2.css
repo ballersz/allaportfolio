@@ -123,7 +123,7 @@ body {
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
+  justify-content: center;
 }
 
 .video-grid video {
@@ -144,6 +144,11 @@ body {
 
 /* MOBILE */
 @media (max-width: 768px) {
+
+.back-home{
+  padding: 10px 5%
+}
+  
   .home-main h1 {
     font-size: 36px;
   }
